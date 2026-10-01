@@ -15,26 +15,27 @@ project:
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "LEVEL_LOW"
+  ui[1]: "AIR_TEMP_HIGH"
+  ui[2]: "PH_ALERT"
+  ui[3]: "EC_ALERT"
+  ui[4]: "HUMIDITY_HIGH"
+  ui[5]: "LIGHT_LOW"
+  ui[6]: "WATER_TEMP_HIGH"
+  ui[7]: "FLOW_FAULT"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "ALARM"
+  uo[1]: "PUMP_EN"
+  uo[2]: "FAN_EN"
+  uo[3]: "LIGHT_EN"
+  uo[4]: "FILL_EN"
+  uo[5]: "NUTRIENT_ALERT"
+  uo[6]: "CRITICAL"
+  uo[7]: "SYSTEM_NORMAL"
 
   # Bidirectional pins
   uio[0]: ""
